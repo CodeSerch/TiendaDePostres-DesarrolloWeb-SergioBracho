@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de Postres Olavarria</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/540b1ccfc5.js" crossorigin="anonymous"></script>
+  <link href="nav-bar.html" rel="import" />
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<header>
+  <div id="navbar">
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav-bar.html");
+      });
+    </script>
+  </div>
+</header>
+
+<body>
+  <div class="primaria">
+    <h1 class="titulo1">
+      Postres Olavarria <i class="fas fa-cookie"></i>
+    </h1>
+  </div>
+  <script src="script.js"></script>
+  <div class="wrapper">
+    <div class="flex1">
+      <table class="tabla1">
+        <div class="drop">
+          <img src="imagenes/torta1.png" alt="no image" class="imagen1" style="box-shadow: none;">
+          <h2 class="bestSellers">Mas Vendidos</h2>
+        </div>
+
+        <tr>
+          <th>
+            <div class="image-div">
+              <img src="imagenes/postre1.jpg" alt="postre1" class="imagen1" />
+              <button type="button" class="button1">Comprar</button>
+            </div>
+          </th>
+          <th>
+            <div class="image-div">
+              <img src="imagenes/postre2.jpg" alt="postre2" class="imagen1" />
+              <button type="button" class="button1">Comprar</button>
+            </div>
+          </th>
+          <th>
+            <div class="image-div">
+              <img src="imagenes/postre3.jpg" alt="postre3" class="imagen1" />
+              <button type="button" class="button1">Comprar</button>
+            </div>
+          </th>
+          <th>
+            <div class="image-div">
+              <img src="imagenes/postre4.jpg" alt="postre4" class="imagen1" />
+              <button type="button" class="button1">Comprar</button>
+            </div>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <div class="image-div">
+              <img src="imagenes/postre5.jpg" alt="postre5" class="imagen1" />
+              <button type="button" class="button1">Comprar</button>
+            </div>
+          </th>
+          <th>
+            <div class="image-div">
+              <img src="imagenes/postre6.jpg" alt="postre6" class="imagen1" />
+              <button type="button" class="button1">Comprar</button>
+            </div>
+          </th>
+          <th>
+            <div class="image-div">
+              <img src="imagenes/postre1.jpg" alt="postre1" class="imagen1" />
+              <button type="button" class="button1">Comprar</button>
+            </div>
+          </th>
+          <th>
+            <div class="image-div">
+              <img src="imagenes/postre2.jpg" alt="postre2" class="imagen1" />
+              <button type="button" class="button1">Comprar</button>
+            </div>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <div class="flex2">
+      <h2>Envio gratis!</h2>
+    <img
+      src="https://forocms.net/wp-content/uploads/2020/12/Local-Delivery-Drivers-NULLED-WooCommerce-Premium-Plugin.png"
+      class="envioGratis">
+    <h2>Encarga tu torta <br /> personalizada!</h2>
+    <img
+      src="https://d3ugyf2ht6aenh.cloudfront.net/stores/670/896/products/torta-calus-021-41a7bf63ce4995186f15934622517079-1024-1024.jpg"
+      class="envioGratis" style="width: 200px;">
+    <button type="button" class="button1">Encargar</button>
+    </div>
+  </div>
+</body>
+<footer>&copy; Copyright 2021 Sergio Bracho</footer>
+</html>
