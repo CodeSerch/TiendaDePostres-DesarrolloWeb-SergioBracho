@@ -66,6 +66,8 @@ img.imagen1 {
   height: 200px;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.596);
   border-radius: 10%;
+  align-self: center;
+  margin-top: 20px;
 }
 h2 {
   font-family: "PayToneOne", Arial, Helvetica, sans-serif;
@@ -166,7 +168,7 @@ footer {
   flex-grow: 4;
   width: 1000px;
   margin: -8px;
-  padding-right: 8px;
+  padding-right: 16px;
 }
 
 .flex2 {
